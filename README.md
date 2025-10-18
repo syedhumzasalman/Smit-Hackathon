@@ -1,16 +1,65 @@
-# React + Vite
+# PitchCraft – Your AI Startup Partner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PitchCraft is an AI-powered startup pitch generator. It helps students and aspiring founders turn their startup ideas into professional pitches, taglines, target audiences, and landing page content in just a few minutes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧭 1) The Story
 
-## React Compiler
+Every student or founder has an idea 💡, but the challenge is how to turn it into a pitch, create a tagline, or explain it to investors.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Imagine an AI assistant that listens to your startup idea and automatically generates:  
+- Name  
+- Tagline  
+- Pitch  
+- Audience  
 
-## Expanding the ESLint configuration
+All with a single click ⚡  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Goal:** Help any aspiring founder create professional-looking startup pitches quickly.
+
+---
+
+## 💡 2) The Big Idea – PitchCraft
+
+PitchCraft is your personal AI startup partner that can:  
+- 🎯 Generate creative startup names & taglines  
+- 🧩 Write elevator pitches & problem/solution statements  
+- 👥 Define target audience & unique value proposition    
+
+
+
+---
+
+## 🧩 3) Tech Stack
+
+- **Frontend:** React.js + Tailwind CSS or Material UI  
+- **Backend:** Firebase   
+- **AI Model:**  OpenRouter
+- **Storage:** Firebase Storage  
+
+---
+
+## 🪜 4) Step-by-Step Journey
+
+| Step | Task | Explanation |
+|------|------|-------------|
+| 1 | Understand the Problem | Identify why founders struggle to write pitches |
+| 2 | Be Ready | Prepare system and internet connection |
+| 3 | Create Repo | Create a GitHub repo and add `.env.example` |
+| 4 | Design Database Models | Models: User, Startup Idea, Generated Pitch |
+| 5 | Setup Auth (JWT) | Login/Register backend + protected routes |
+| 6 | Input Form | Users enter their idea – name, short description, industry |
+| 7 | Gemini Integration | Generate pitch content using Gemini/OpenAI API |
+| 8 | AI Response Handling | Parse results: name, tagline, pitch, audience, landing content |
+| 9 | UI Design | Modern dashboard to view and save pitches |
+| 10 | Export Option | Deploy frontend on Vercel and backend on Firebase/Supabase |
+
+---
+
+## 🧠 5) How Gemini Helps
+
+OpenRouter/OpenAI automatically generates:  
+- Startup name + tagline  
+- Elevator pitch (2–3 line summary)  
+- Problem/Solution defin
