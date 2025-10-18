@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
-import Signup from '../Pages/signup'
-import Login from '../Pages/login'
-import Dashboard from '../Pages/dashboard'
+import Signup from '../Pages/SignupPage/signup'
+import Login from '../Pages/LoginPage/login'
+import Dashboard from '../Pages/Dashboard/dashboard'
 
 const Routing = () => {
 

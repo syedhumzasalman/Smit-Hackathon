@@ -9,11 +9,6 @@ function App() {
   return (
     <>
       <Routing />
-      {/* <h1 className="text-blue-600">Hello world</h1>
-      <Button variant="outlined" color="error">
-        Error
-      </Button> */}
-
     </>
   )
 }
