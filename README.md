@@ -40,24 +40,8 @@ PitchCraft is your personal AI startup partner that can:
 
 ---
 
-## 🪜 4) Step-by-Step Journey
 
-| Step | Task | Explanation |
-|------|------|-------------|
-| 1 | Understand the Problem | Identify why founders struggle to write pitches |
-| 2 | Be Ready | Prepare system and internet connection |
-| 3 | Create Repo | Create a GitHub repo and add `.env.example` |
-| 4 | Design Database Models | Models: User, Startup Idea, Generated Pitch |
-| 5 | Setup Auth (JWT) | Login/Register backend + protected routes |
-| 6 | Input Form | Users enter their idea – name, short description, industry |
-| 7 | Gemini Integration | Generate pitch content using Gemini/OpenAI API |
-| 8 | AI Response Handling | Parse results: name, tagline, pitch, audience, landing content |
-| 9 | UI Design | Modern dashboard to view and save pitches |
-| 10 | Export Option | Deploy frontend on Vercel and backend on Firebase/Supabase |
-
----
-
-## 🧠 5) How Gemini Helps
+## 🧠 4) How AI Helps
 
 OpenRouter/OpenAI automatically generates:  
 - Startup name + tagline  
