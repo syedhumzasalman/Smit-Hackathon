@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import InputField from '../../component/inputField'
+import InputField from '../../component/InputField/inputField'
 import Swal from 'sweetalert2'
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth'
 import { auth, db } from '../../FireBase/firebase'
 import { collection, doc, serverTimestamp, setDoc } from 'firebase/firestore'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 const Signup = () => {
@@ -11,6 +12,7 @@ const Signup = () => {
   const [userName, setUserName] = useState("")
   const [userEmail, setUserEmail] = useState("")
   const [userPassword, setUserPassword] = useState("")
+  const navigate = useNavigate();
 
 
 
@@ -48,7 +50,7 @@ const Signup = () => {
       const response = await createUserWithEmailAndPassword(auth, userEmail, userPassword)
       const user = response.user;
 
-      console.log(user)
+      // console.log(user)
 
       // Update user profile display name
       await updateProfile(user, {
@@ -72,7 +74,9 @@ const Signup = () => {
         setUserName("");
         setUserEmail("");
         setUserPassword("");
+        navigate("/login")
       });
+
 
 
 
@@ -83,6 +87,10 @@ const Signup = () => {
         title: error.message,
         text: "Something went wrong! Please try again.",
         confirmButtonColor: "#ef4444"
+      }).then(() => {
+        setUserName("");
+        setUserEmail("");
+        setUserPassword("");
       });
     }
 
@@ -127,6 +135,12 @@ const Signup = () => {
               onClick={createUser}>
               Sign Up
             </button>
+
+            <p>Already have an account
+              <Link to="/login" className="text-indigo-600 hover:underline font-medium m-2">
+                Login
+              </Link>
+            </p>
           </div>
         </div>
       </div>
