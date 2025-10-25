@@ -5,6 +5,8 @@ import Aianswer from '../../component/AIanswer/Aianswer.jsx'
 import HandelHistory from '../../component/HandelHistory/HandelHistory.jsx';
 import ShowHistory from '../../component/ShowHistory/ShowHistory.jsx';
 import UploadIcon from '@mui/icons-material/Upload';
+import ProfileDropdown from '../../component/HandelLogout/HandelLogout.jsx';
+
 
 const dashboard = () => {
 
@@ -16,6 +18,11 @@ const dashboard = () => {
   const [loading, setLoading] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [refreshHistory, setRefreshHistory] = useState(0);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+
+
+
 
 
   const payload = {
@@ -229,6 +236,10 @@ const dashboard = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
+
+          {/* ProfileDropdown */}
+
+          <ProfileDropdown />
 
           {/* Chat Display */}
           <div className="flex-1 overflow-y-auto pr-2 mt-12 md:mt-0">
