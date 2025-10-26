@@ -125,8 +125,7 @@ User Input → React Frontend → Firebase → Gemini AI API → Formatted Outpu
 ## 🙏 Acknowledgments
 
 - **SMIT (Saylani Mass IT Training)** - For organizing the hackathon and providing this incredible opportunity
-- **Saylani Welfare Trust** - For supporting tech education in Pakistan
-- **[Mentor Name]** - For guidance and support throughout the project
+- **Jaffar Aman** - For guidance and support throughout the project
 - All participants and organizers of the SMIT Hackathon
 
 ---
