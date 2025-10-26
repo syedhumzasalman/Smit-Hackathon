@@ -36,7 +36,10 @@ const Login = ({ setUser }) => {
     try {
 
       const userFound = await signInWithEmailAndPassword(auth, userEmailLogin, userPasswordLogin)
-      const userName = userFound.user.name
+      const userName = userFound.user.displayName
+
+      // console.log(userName)
+
 
       Swal.fire({
         icon: "success",

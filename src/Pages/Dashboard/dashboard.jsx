@@ -247,7 +247,7 @@ const dashboard = () => {
               {aiResult.map((item, index) => (
                 <div
                   key={index}
-                  className={`flex ${item.type === "Q" ? "justify-end" : "justify-start"}`}
+                  className={`flex mt-15 ${item.type === "Q" ? "justify-end" : "justify-start"}`}
                 >
                   {/* USER MESSAGE */}
                   {item.type === "Q" ? (
