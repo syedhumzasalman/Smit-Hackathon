@@ -133,7 +133,7 @@ User Input → React Frontend → Firebase → Gemini AI API → Formatted Outpu
 
 ## 👨‍💻 Developer
 
-**[Your Name]**
+**[Syed Humza Salman]**
 - LinkedIn: (https://www.linkedin.com/in/syedhumzasalman/)
 - GitHub: (https://github.com/syedhumzasalman)
 
