@@ -139,9 +139,6 @@ User Input → React Frontend → Firebase → Gemini AI API → Formatted Outpu
 
 ---
 
-## 📞 Contact & Feedback
-
----
 
 ## ⭐ Show Your Support
 
